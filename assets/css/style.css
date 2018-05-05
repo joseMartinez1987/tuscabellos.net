@@ -1,0 +1,84 @@
+body{
+min-height:100%;
+background-image: url(../images/fondo-Intro.png);
+}
+.man-model {
+	display: inline-block;
+	position: relative;
+	float:left;
+	width:800px;
+	height:auto;
+	top:-100px;
+	left:-270px;
+}
+.woman-model {
+	display: inline-block;
+	position: relative;
+	float:right;
+	width:800px;
+	height:800px;
+	top:-821px;
+}
+.box {
+ position: absolute;
+ margin-top: 100px;
+ border-top: 5px solid white;
+ border-right:8px solid white;
+ border-bottom:5px solid white;
+ border-left:8px solid white;
+ left:450px;
+}
+
+.col-flat {
+	position: relative;
+	width:80px;
+	height:50px;
+	top:333px;
+	right:350px;
+}
+.world {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	top: 333px;
+	right:240px;
+}
+.vnz-flat {
+	position: relative;
+	width:80px;
+	height:50px;
+	top: 333px;
+	right: 130px;
+}
+.colombia {
+	position: relative;
+	width:80px;
+	height: 40px;
+	top:378px;
+	right:606px;
+	border-radius:50%;
+}
+.resto {
+	position: relative;
+	width:155px;
+	height:40px;
+	top: 378px;
+	right:530px;
+}
+.vnz {
+	position: relative;
+	width:155px;
+	height:40px;
+	top:378px;
+	right: 430px;
+}
+/*
+.enlaces {
+	background-color:lightblue;
+	position: relative;
+	top:320px;
+	left:460px;
+	width:520px;
+	height:200px;
+}*/
+
