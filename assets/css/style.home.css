@@ -1,0 +1,40 @@
+.navbar {
+	background-color: #f8f8f8;
+	min-width:100%;
+	min-height: 21px;
+}
+a {
+	font: inherit;
+	color:#666666;
+	border-color: #666666;
+	font-weight: bold;
+	font-size: 11.5px;
+}
+span {
+	margin-left: 10px;
+}
+.logo {
+	padding-left: 20px;
+	width:18%;
+	height:auto;
+	background-color: white;
+	margin-right:40px;
+}
+.navbar2 {
+	min-width:100%;
+	background-color: #e41948;
+}
+.secondA {
+	padding-top: 0;
+	margin-top: 0;
+	color:white;
+	font-size:18px;
+	padding-right:20px;
+}
+.login {
+	margin-left:20px;
+}
+.cart {
+	padding:0;
+	margin:-19px;
+}
