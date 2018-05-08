@@ -50,6 +50,16 @@ h3 {
 	opacity: .1;
 	background-color: currentColor;
 }
+.section2-title {
+	position: relative;
+	top:-6px;
+	width:24%;
+	display: inline-block;
+	height:2px;
+	opacity: .1;
+	background-color: currentColor;
+}
+
 .flex {
 	display:flex;
 	justify-content: space-between;
@@ -70,4 +80,31 @@ h3 {
 .text-aling {
 	text-align: center;
 }
+.ajuste {
+	padding-left: 25%;
+	padding-right: 25%;
+} 
+.galery {
+	display:flex;
+	justify-content: space-between;
+	margin-top: 55px;
+}
+.galery-img {
+	width:60%;
+}
+.nosotros {
+	margin-top: 50px;
+}
+.girl{
+width:100%;
+position: absolute;
+}
+.text-nosotros {
+	position: relative;
+	float:right;
+	width:40%;
+	text-align: justify;
+	font-size: 1rem
+}
+
 
