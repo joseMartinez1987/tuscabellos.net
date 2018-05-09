@@ -133,6 +133,8 @@ height:600px;
 }
 .flexslider .slides img {
 	width:35%;
+	position: relative;
+	left:33%;
 }
 
 
