@@ -59,6 +59,15 @@ h3 {
 	opacity: .1;
 	background-color: currentColor;
 }
+.section3-title {
+	position: relative;
+	top:-6px;
+	width:43%;
+	display: inline-block;
+	height:2px;
+	opacity: .1;
+	background-color: currentColor;
+}
 
 .flex {
 	display:flex;
@@ -92,19 +101,38 @@ h3 {
 .galery-img {
 	width:60%;
 }
-.nosotros {
-	margin-top: 50px;
+.quienes-somos {
+	margin-top: 40px;
+background-image: url(../images/fashion-girl-large-1500x698.jpg);
+background-size: cover;
+height:600px;
 }
-.girl{
-width:100%;
-position: absolute;
+.nosotros-h1 {
+	text-align: center;
+	display: inline-block;
 }
 .text-nosotros {
 	position: relative;
-	float:right;
+	float: right;
+	right:60px;
+	margin-top: 50px;
+	font-size: 21px;
 	width:40%;
 	text-align: justify;
-	font-size: 1rem
+}
+.text-align1 {
+	padding: 0 500px 0 500px;
+	font-size: 18px;
+}
+.margin-top {
+	margin-top: 70px;
+}
+.galery-button {
+	position: relative;
+	left:44%;
+}
+.flexslider .slides img {
+	width:35%;
 }
 
 
