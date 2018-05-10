@@ -1,7 +1,7 @@
 .navbar {
 	background-color: #f8f8f8;
-	min-width:100%;
-	min-height: 21px;
+	max-width:100%;
+	min-height: auto;
 }
 a {
 	font: inherit;
@@ -44,7 +44,7 @@ h3 {
 .section-title {
 	position: relative;
 	top:-6px;
-	width:44%;
+	width:43%;
 	display: inline-block;
 	height:2px;
 	opacity: .1;
@@ -73,10 +73,11 @@ h3 {
 	display:flex;
 	justify-content: space-between;
 }
-.style {
+/*.style {
+	margin-left:20px;
 	margin-top:15px;
 	position: relative;
-}
+}*/	
 .size-img {
 	width:100%;
 	margin-top:15px;
@@ -102,7 +103,7 @@ h3 {
 	width:60%;
 }
 .quienes-somos {
-	margin-top: 40px;
+margin-top: 40px;
 background-image: url(../images/fashion-girl-large-1500x698.jpg);
 background-size: cover;
 height:600px;
@@ -130,11 +131,53 @@ height:600px;
 .galery-button {
 	position: relative;
 	left:44%;
+	margin-bottom: 40px;
+
 }
 .flexslider .slides img {
-	width:35%;
+	width:45%;
 	position: relative;
 	left:33%;
 }
+
+@media screen and (max-width: 1000px) {
+	.secondA {
+		font-size: 13px;
+	}
+	.margin {
+		margin-top: 25px;
+	}
+	.section-title {
+		width:40%;
+	}
+	.section2-title {
+		width:21%;
+	}
+	.section3-title {
+		width:39%;
+	}
+	.style img {
+		position: relative;
+		left:140px;
+	}
+	.size-img {
+		width:40%;
+		position: relative;
+		left:215px;
+	}
+	 .text-nosotros {
+	font-size:17px;
+	right:10px;
+	}
+	.text-align1 {
+		padding:0 100px 0 100px;
+	}
+	.galery-button {
+		left:40%;
+	}
+
+}
+	
+
 
 
