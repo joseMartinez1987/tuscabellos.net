@@ -81,6 +81,19 @@ h3 {
 .size-img {
 	width:100%;
 	margin-top:15px;
+	position: relative;
+}
+.size-img:hover {
+	bottom:6px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.style img {
+	position: relative;
+	transition: bottom 2s;
+}
+.style img:hover {
+	bottom:6px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 .fondo {
 	margin-top: 20px;
@@ -100,7 +113,12 @@ h3 {
 	margin-top: 55px;
 }
 .galery-img {
-	width:60%;
+	max-width:80%;
+}
+.galery-img:hover{
+	position: relative;
+	bottom:6px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 .quienes-somos {
 margin-top: 40px;
@@ -140,6 +158,9 @@ height:600px;
 	left:33%;
 }
 
+
+
+/*
 @media screen and (max-width: 1000px) {
 	.secondA {
 		font-size: 13px;
