@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Columnas</title>
+	<link rel="stylesheet" href="">
+	<style>
+		.container {
+		display:grid;
+		grid-template:100px 1fr 150px/200px 1fr;
+		grid-gap: 10px;
+		height: 100vh;
+		grid-template-areas: "header header" 
+							 "left contenido" 
+							 "footer footer";
+	}
+		.item {
+		background-color: lightblue;
+		padding:10px;
+		border:2px solid blue;
+		text-align: center;	
+		padding:50% auto;
+	}
+	.header {
+	grid-area: header;
+	}
+	.left {
+	grid-area: left;
+	}
+	.contenido {
+	grid-area:contenido;
+	}
+	.footer {
+		grid-area:footer;
+	}
+	</style>
+</head>
+<body>
+	<section class="container">
+		<div class="item header">Header</div>
+		<div class="item left">left content</div>
+		<div class="item contenido">Contenido</div>
+		<div class="item footer">footer</div>
+	</section>
+</body>
+</html>

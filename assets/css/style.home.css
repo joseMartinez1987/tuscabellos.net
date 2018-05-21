@@ -91,10 +91,6 @@ h3 {
 	position: relative;
 	transition: bottom 2s;
 }
-.style img:hover {
-	bottom:6px;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
 .fondo {
 	margin-top: 20px;
 	max-width: 100%;
@@ -131,16 +127,18 @@ height:600px;
 	display: inline-block;
 }
 .text-nosotros {
-	position: relative;
+	position: absolute;
 	float: right;
 	right:60px;
 	margin-top: 50px;
-	font-size: 21px;
+	font-size: 1em;
 	width:40%;
 	text-align: justify;
+	color:black;
+	font-weight:bold;
 }
 .text-align1 {
-	padding: 0 500px 0 500px;
+	padding: 0 300px 0 300px;
 	font-size: 18px;
 }
 .margin-top {
@@ -148,7 +146,7 @@ height:600px;
 }
 .galery-button {
 	position: relative;
-	left:44%;
+	left:38%;
 	margin-bottom: 40px;
 
 }
@@ -158,47 +156,29 @@ height:600px;
 	left:33%;
 }
 
-
-
-/*
-@media screen and (max-width: 1000px) {
-	.secondA {
-		font-size: 13px;
-	}
-	.margin {
-		margin-top: 25px;
-	}
-	.section-title {
-		width:40%;
-	}
-	.section2-title {
-		width:21%;
-	}
-	.section3-title {
-		width:39%;
-	}
-	.style img {
-		position: relative;
-		left:140px;
-	}
-	.size-img {
-		width:40%;
-		position: relative;
-		left:215px;
-	}
-	 .text-nosotros {
-	font-size:17px;
-	right:10px;
-	}
-	.text-align1 {
-		padding:0 100px 0 100px;
-	}
-	.galery-button {
-		left:40%;
-	}
-
+/*Practica de CSS-Grid*/
+.box {
+	display: grid;
+	grid-template-columns:[inicio] 1fr [linea1] 1fr [linea2] 1fr [linea3] 1fr [end];
+	grid-template-rows: [inicio-row] 300px [linea1-row] 300px;
+	justify-items: center;
+	grid-gap: 15px;
 }
-	
+.img3 {
+	width:250px;
+	height:auto;
+}
+
+.sub-box1 {
+	grid-column: inicio / linea2;
+}
+.sub-box2 {
+	grid-column:linea2 / end;
+}
 
 
-
+@media screen and (max-width: 800px) {
+	.text-nosotros {
+		border:2px solid red;
+	}
+}
